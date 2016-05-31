@@ -35,6 +35,12 @@ body{
     color: #000;
 }
 
+#wrapper #info li{
+    padding-bottom: 10px;
+    padding-right: 30px;
+    font-style: oblique;
+}
+
 #wrapper #info div p {
     font-size: 23px;
     padding: 0 0 0 20px;
