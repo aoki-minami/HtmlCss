@@ -1,30 +1,24 @@
-#wrapper {
-    width: 1200px;
-    height: auto;
-    margin: 0 auto 0 auto;
-    background-color: #ffffff;
-    overflow: hidden;
-}
+body{
+    background-image: url(./../img/cthulhu.jpg);
 
-#wrapper #main-image {
-    width: 1200px;
-    height: 400px;
-}
-
-div.content{
-    float: left;
-    width: 200px;
-    height: 200px;
-    background-color: #00f;
-    margin: 50px;
+    /* 画像を常に天地左右の中央に配置 */
+    background-position: center center;
+    /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+    background-size: cover;
+    /* 画像をタイル状に繰り返し表示しない */
+    background-repeat: no-repeat;
+    /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+    background-attachment: fixed;
 }
 
 #wrapper #info {
-    float: right;
+
     width: 800px;
-    height: 300px;
-    margin: 20px 0 30px 30px;
+    height: auto;;
+    margin: 0 auto 0 auto;
+    background-color: rgba(255,255,255,0.6);
 }
+
 #wrapper #info h2 {
     width: 790px;
     height: 50px;
@@ -34,28 +28,17 @@ div.content{
     color: #92e5fe;
     background-color: #28a6cc;
 }
-#wrapper #info div {
+
+#wrapper #info div{
     width: 798px;
-    height: 249px;
     border: 1px solid #408ca3;
+    color: #000;
 }
+
 #wrapper #info div p {
     font-size: 23px;
     padding: 0 0 0 20px;
     text-decoration: underline;
-}
-
-#wrapper #category {
-    float: left;
-    width: 200px;
-    margin: 20px 100px 30px 0;
-    border: 1px solid #408ca3;
-}
-#wrapper #category li {
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    color: #394548;
 }
 
 #wrapper #page-top {
