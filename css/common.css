@@ -38,7 +38,7 @@ header ul{
 
 header ul li{
     float: left;
-    width: 300px;                   /* 横幅 300px */
+    width: 240px;                   /* 横幅 300px */
     height: 40px;                   /* 縦幅  40px */
     color: #62b4cc;                 /* 文字色 */
     margin: auto 0;                 /* 中央寄せ　*/
