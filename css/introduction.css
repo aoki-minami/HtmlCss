@@ -11,6 +11,10 @@ body{
     background-attachment: fixed;
 }
 
+img{
+    margin: 0;
+}
+
 #wrapper #info {
 
     width: 800px;
@@ -36,7 +40,7 @@ body{
 }
 
 #wrapper #info li{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-right: 30px;
     font-style: oblique;
 }
